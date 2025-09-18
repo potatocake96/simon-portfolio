@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Simon Dass — Portfolio</title>
+<link rel="icon" href="assets/favicon.ico">
+<link rel="apple-touch-icon" href="assets/favicon-180.png">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css"><script defer src="script.js"></script>
+</head><body>
+
+<header class="site">
+  <div class="container">
+    <div class="nav">
+      <div class="brand"><span class="dot"></span><a href="index.html">Simon Dass</a></div>
+      <div class="links">
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="skills.html">Skills</a>
+        <a href="experience.html">Experience</a>
+        <a href="community.html">Community</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container">
+    <div class="wrap">
+      <div class="reveal">
+        <span class="kicker">Teacher • Developer • Musician</span>
+        <h1>Hi, I’m Simon Dass.<br>I design VCE‑VM curriculum, build teacher‑first tools, and help students belong.</h1>
+        <p class="lead">Projects include AdjustMe (NCCD), TrackMe (progress), and ClassWork (rapid delivery). Practice centres on inclusion, trauma‑informed routines, and authentic assessment.</p>
+        <div style="display:flex;gap:10px;flex-wrap:wrap">
+          <a class="btn dark" href="projects.html">View Projects</a>
+          <a class="btn light" href="contact.html">Email Me</a>
+          <a class="btn ghost" href="assets/Simon_Dass_CV.pdf" download>Download CV</a>
+        </div>
+      </div>
+      <figure class="thumb reveal"><img src="assets/portrait.png" alt="Portrait"></figure>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <h2 class="reveal">Selected Highlights</h2>
+    <p class="sub reveal">Biggest wins across curriculum, tooling, and inclusion.</p>
+    <div class="grid three">
+      <div class="card reveal clickable" role="button" tabindex="0" data-modal="hi-curriculum"><h3>Statewide Curriculum</h3><span class="badge">VCE‑VM</span><p>Integrated projects used across multiple Victorian campuses.</p><div class="impact">Consistent delivery; 2023 QA success.</div></div>
+      <div class="card reveal clickable" role="button" tabindex="0" data-modal="hi-tracking"><h3>Statewide Tracking Tools</h3><span class="badge">Data</span><p>Web‑based progress tracking adopted across schools.</p><div class="impact">Faster meetings; shared visibility.</div></div>
+      <div class="card reveal clickable" role="button" tabindex="0" data-modal="hi-admin"><h3>Near‑Zero Admin</h3><span class="badge">Automation</span><p>HTML programs that removed repetitive admin for staff.</p><div class="impact">Hours saved weekly.</div></div>
+      <div class="card reveal clickable" role="button" tabindex="0" data-modal="hi-inclusion"><h3>Inclusion with Complex Cohorts</h3><span class="badge">Youth Justice</span><p>Taught mixed cohorts including youth justice and high‑anxiety students.</p><div class="impact">Attendance 3/10 → 7/10 days/fortnight.</div></div>
+      <div class="card reveal clickable" role="button" tabindex="0" data-modal="hi-diverse"><h3>Diverse Learning Needs</h3><span class="badge">Differentiation</span><p>Flexible assessment and scaffolded tasks.</p><div class="impact">Higher completion; clearer criteria.</div></div>
+      <div class="card reveal clickable" role="button" tabindex="0" data-modal="hi-nccd"><h3>NCCD Evidence Tools</h3><span class="badge">Compliance</span><p>Tools that support adjustment documentation.</p><div class="impact">Consistent records; reduced admin.</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- Highlight Modals -->
+<div class="modal-backdrop" id="hi-curriculum"><div class="modal">
+  <button class="close" data-close="hi-curriculum">×</button>
+  <h3>Statewide Curriculum</h3>
+  <p><strong>Problem:</strong> Inconsistent delivery and assessment across campuses.</p>
+  <p><strong>What I did:</strong> Designed integrated VCE‑VM projects (Units 1–4) with scaffolded rubrics and flexible evidence options.</p>
+  <p><strong>Impact:</strong> Consistent statewide delivery; 2023 QA success; clearer moderation and student pathways.</p>
+</div></div>
+<div class="modal-backdrop" id="hi-tracking"><div class="modal">
+  <button class="close" data-close="hi-tracking">×</button>
+  <h3>Statewide Tracking Tools</h3>
+  <p><strong>Problem:</strong> Progress data scattered across spreadsheets and emails.</p>
+  <p><strong>What I did:</strong> Built a simple web-based logging tool with shared views for staff.</p>
+  <p><strong>Impact:</strong> Faster meetings, shared visibility, and fewer reporting errors.</p>
+</div></div>
+<div class="modal-backdrop" id="hi-admin"><div class="modal">
+  <button class="close" data-close="hi-admin">×</button>
+  <h3>Near‑Zero Admin</h3>
+  <p><strong>Problem:</strong> Teachers losing hours to repetitive documentation.</p>
+  <p><strong>What I did:</strong> Created HTML utilities that automate common evidence/comments.</p>
+  <p><strong>Impact:</strong> Hours saved weekly; teachers focused more on teaching.</p>
+</div></div>
+<div class="modal-backdrop" id="hi-inclusion"><div class="modal">
+  <button class="close" data-close="hi-inclusion">×</button>
+  <h3>Inclusion with Complex Cohorts</h3>
+  <p><strong>Problem:</strong> Mixed cohort of youth justice students and high‑anxiety learners in one class.</p>
+  <p><strong>What I did:</strong> Implemented predictable routines, calm corners, tiered tasks, and restorative follow‑ups.</p>
+  <p><strong>Impact:</strong> Attendance rose from 3/10 to 7/10 days per fortnight; improved task initiation and completion.</p>
+</div></div>
+<div class="modal-backdrop" id="hi-diverse"><div class="modal">
+  <button class="close" data-close="hi-diverse">×</button>
+  <h3>Diverse Learning Needs</h3>
+  <p><strong>Problem:</strong> Uniform assessments disadvantaging students with diverse needs.</p>
+  <p><strong>What I did:</strong> Shifted to scaffolded, flexible assessment with multiple modalities.</p>
+  <p><strong>Impact:</strong> Higher completion rates; clearer success criteria; better engagement.</p>
+</div></div>
+<div class="modal-backdrop" id="hi-nccd"><div class="modal">
+  <button class="close" data-close="hi-nccd">×</button>
+  <h3>NCCD Evidence Tools</h3>
+  <p><strong>Problem:</strong> NCCD evidence writing was time‑consuming and inconsistent.</p>
+  <p><strong>What I did:</strong> Built tools that generate and standardise adjustment commentary.</p>
+  <p><strong>Impact:</strong> Reduced admin and stronger, more consistent documentation.</p>
+</div></div>
+
+<footer class="site">
+  <div class="container">© 2025 Simon Dass. All rights reserved.</div></footer>
+
+</body></html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Simon Dass</title>
+<link rel="icon" href="assets/favicon.ico">
+<link rel="apple-touch-icon" href="assets/favicon-180.png">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css"><script defer src="script.js"></script>
+</head><body>
+
+<header class="site">
+  <div class="container">
+    <div class="nav">
+      <div class="brand"><span class="dot"></span><a href="index.html">Simon Dass</a></div>
+      <div class="links">
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="skills.html">Skills</a>
+        <a href="experience.html">Experience</a>
+        <a href="community.html">Community</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="section"><div class="container">
+  <h2 class="reveal">Contact</h2>
+  <p class="sub reveal">For roles, collaborations, curriculum design, or edtech projects.</p>
+  <img class="sig-contact" src="assets/signature.png" alt="Signature">
+  <p style="display:flex;gap:10px;flex-wrap:wrap">
+    <a class="btn dark" href="javascript:void(0)" onclick="openModal('email-modal')">Email Me</a>
+    <a class="btn ghost" href="assets/Simon_Dass_CV.pdf" download>Download CV</a>
+  </p>
+</div></section>
+
+<!-- Email popout -->
+<div class="modal-backdrop" id="email-modal">
+  <div class="modal">
+    <button class="close" data-close="email-modal">×</button>
+    <h3>Get in touch</h3>
+    <div class="email-card">
+      <div class="email-row">
+        <code class="email-code" id="email-value">you@example.com</code>
+        <button class="copy-btn" onclick="copyEmail('email-value')">Copy</button>
+      </div>
+      <div class="copy-note">Click “Copy” to copy my email address. You can then paste it into your mail client.</div>
+    </div>
+  </div>
+</div>
+
+<footer class="site">
+  <div class="container">© 2025 Simon Dass. All rights reserved.</div></footer>
+
+</body></html>
